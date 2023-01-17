@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html lang="en">
   <head>
-    <title>WebGL Globe</title>
+    <title>World CO2 Emission</title>
     <meta charset="utf-8">
     <style type="text/css">
       html {
@@ -78,6 +78,17 @@
         padding: 10px;
       }
 
+      #sub-title{
+        position: absolute;
+        top: 45px;
+        width: 270px;
+        left: 20px;
+        background-color: rgba(0,0,0,0.2);
+        border-radius: 3px;
+        font: 15px Georgia;
+        padding: 10px;
+      }
+
       .year {
         font: 16px Georgia;
         line-height: 26px;
@@ -118,23 +129,50 @@
   <div id="container"></div>
 
   <div id="info">
-    <strong><a href="http://www.chromeexperiments.com/globe">WebGL Globe</a></strong> <span class="bull">&bull;</span> Created by the Google Data Arts Team <span class="bull">&bull;</span> Data acquired from <a href="http://sedac.ciesin.columbia.edu/gpw/">SEDAC</a>
+    <strong><a href="http://www.chromeexperiments.com/globe">WebGL Globe</a></strong> <span class="bull">&bull;</span> Created by Amandeep <span class="bull">&bull;</span> Data acquired from <a href="https://data.worldbank.org/indicator/EN.ATM.CO2E.PC">The World Bank</a>
   </div>
 
 
   <div id="currentInfo">
     <span id="year1990" class="year">1990</span>
+    <span id="year1991" class="year">1991</span>
+    <span id="year1992" class="year">1992</span>
+    <span id="year1993" class="year">1993</span>
+    <span id="year1994" class="year">1994</span>
     <span id="year1995" class="year">1995</span>
+    <span id="year1996" class="year">1996</span>
+    <span id="year1997" class="year">1997</span>
+    <span id="year1998" class="year">1998</span>
+    <span id="year1999" class="year">1999</span>
     <span id="year2000" class="year">2000</span>
+    <span id="year2001" class="year">2001</span>
+    <span id="year2002" class="year">2002</span>
+    <span id="year2003" class="year">2003</span>
+    <span id="year2004" class="year">2004</span>
+    <span id="year2005" class="year">2005</span>
+    <span id="year2006" class="year">2006</span>
+    <span id="year2007" class="year">2007</span>
+    <span id="year2008" class="year">2008</span>
+    <span id="year2009" class="year">2009</span>
+    <span id="year2010" class="year">2010</span>
+    <span id="year2011" class="year">2011</span>
+    <span id="year2012" class="year">2012</span>
+    <span id="year2013" class="year">2013</span>
+    <span id="year2014" class="year">2014</span>
+    <span id="year2015" class="year">2015</span>
+    <span id="year2016" class="year">2016</span>
+    <span id="year2017" class="year">2017</span>
+    <span id="year2018" class="year">2018</span>
+    <span id="year2019" class="year">2019</span>
   </div>
 
   <div id="title">
     World CO<sub>2</sub> Emission
   </div>
+  <div id="sub-title">
+    (metric tons per capita)
+  </div>
 
-  <a id="ce" href="http://www.chromeexperiments.com/globe">
-    <span>This is a Chrome Experiment</span>
-  </a>
 
   <script type="text/javascript" src="./third-party/Detector.js"></script>
   <script type="text/javascript" src="./third-party/three.min.js"></script>
